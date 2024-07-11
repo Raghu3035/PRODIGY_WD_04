@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: silver;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: lightskyblue;
+    color: silver;
+}
+
+header nav ul li {
+    margin: 0 5px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: red;
+}
+
+section {
+    padding: 100px 20px;
+    margin-top: 60px;
+}
+
+.home-section {
+    background: url('https://miro.medium.com/v2/resize:fit:1000/0*sNJJQeYmUCaLBMVD.jpeg') no-repeat center center/cover;
+    color: rgb(73, 3, 64);
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-section img {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.about-section, .projects-section, .contact-section {
+    background-color: #f4f4f4;
+}
+
+.about-section h2, .projects-section h2, .contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-item {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
